@@ -1,0 +1,631 @@
+Compiled for SDL version: 2.0.9
+Linked with SDL version: 2.0.9
+Setting up SRB2...
+
+
+Sonic Robo Blast 2
+Copyright (C) 1998-2018 by Sonic Team Junior
+
+This program comes with ABSOLUTELY NO WARRANTY.
+
+This is free software, and you are welcome to redistribute it
+and/or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+See the 'LICENSE.txt' file for details.
+
+Sonic the Hedgehog and related characters are trademarks of SEGA.
+We do not claim ownership of SEGA's intellectual property used
+in this program.
+
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Z_Init(): Init zone memory allocation daemon. 
+System memory: 4038MB - Free: 1323MB
+I_StartupTimer()...
+W_InitMultipleFiles(): Adding IWAD and main PWADs.
+Added file \games/Sonic Robo Blast 2\srb2.srb (6214 lumps)
+Loading main config from \games/Sonic Robo Blast 2\srb2.srb
+Added file \games/Sonic Robo Blast 2\zones.dta (962 lumps)
+Loading main config from \games/Sonic Robo Blast 2\zones.dta
+Added file \games/Sonic Robo Blast 2\player.dta (526 lumps)
+Added file \games/Sonic Robo Blast 2\rings.dta (444 lumps)
+Added file \games/Sonic Robo Blast 2\patch.dta (183 lumps)
+Added file \games/Sonic Robo Blast 2\music.dta (171 lumps)
+I_StartupGraphics()...
+NOTE: Under SDL2, all modes are supported on all platforms.
+Under opengl, fullscreen only supports native desktop resolution.
+Under software, the mode is stretched up to desktop resolution.
+ 0: 1920x1200
+ 1: 1920x1080
+ 2: 1680x1050
+ 3: 1600x1200
+ 4: 1600x900
+ 5: 1366x768
+ 6: 1440x900
+ 7: 1280x1024
+ 8: 1280x960
+ 9: 1280x800
+10: 1280x720
+11: 1152x864
+12: 1024x768
+13: 800x600
+14: 640x480
+15: 640x400
+16: 320x240
+17: 320x200
+Current Video Mode
+ 320x200 at 16 bit color
+ Stored in system memory
+CPU Info: 486: 0, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init(): Setting up heads up display.
+Number of console HUD lines is now 5
+Cannot use joystick #1/(1), it doesn't exist
+Cannot use joystick #2/(2), it doesn't exist
+executing config.cfg
+Default resolution: 1280 x 800 (8 bits)
+M_Init(): Init miscellaneous info.
+R_Init(): Init SRB2 refresh daemon.
+R_LoadTextures()...
+P_InitPicAnims()...
+R_InitSprites()...
+srb2.srb added 2975 frames in 231 sprites
+player.dta added 163 frames in 1 sprites
+rings.dta added 431 frames in 18 sprites
+patch.dta added 1 frames in 1 sprites
+Added skin 'tails'
+Added skin 'knuckles'
+R_InitColormaps()...
+Number of Extra Colormaps: 0
+S_InitSfxChannels(): Setting up sound channels.
+ST_Init(): Init status bar.
+D_CheckNetGame(): Checking network game status.
+Entering main game loop...
+I_StartupKeyboard()...
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+Sonic Robo Blast 2 Unknown-illegal (Apr 27 2019 17:21:51) SDL Windows 64-bit DEVELOP 
+NOTICE: Game must be restarted to record statistics.
+WARNING: skins/S_SKIN: Unsupported compression method
+WARNING: skins/PLAYA1: Unsupported compression method
+WARNING: skins/PLAYA2A8: Unsupported compression method
+WARNING: skins/PLAYA3A7: Unsupported compression method
+WARNING: skins/PLAYA4A6: Unsupported compression method
+WARNING: skins/PLAYA5: Unsupported compression method
+WARNING: skins/PLAYB1: Unsupported compression method
+WARNING: skins/PLAYC1: Unsupported compression method
+WARNING: skins/PLAYB2: Unsupported compression method
+WARNING: skins/PLAYC2: Unsupported compression method
+WARNING: skins/PLAYB3: Unsupported compression method
+WARNING: skins/PLAYC3: Unsupported compression method
+WARNING: skins/PLAYB4: Unsupported compression method
+WARNING: skins/PLAYC4: Unsupported compression method
+WARNING: skins/PLAYB5: Unsupported compression method
+WARNING: skins/PLAYC5: Unsupported compression method
+WARNING: skins/PLAYB6: Unsupported compression method
+WARNING: skins/PLAYC6: Unsupported compression method
+WARNING: skins/PLAYB7: Unsupported compression method
+WARNING: skins/PLAYC7: Unsupported compression method
+WARNING: skins/PLAYB8: Unsupported compression method
+WARNING: skins/PLAYC8: Unsupported compression method
+WARNING: skins/PLAYD1: Unsupported compression method
+WARNING: skins/PLAYE1: Unsupported compression method
+WARNING: skins/PLAYF1: Unsupported compression method
+WARNING: skins/PLAYG1: Unsupported compression method
+WARNING: skins/PLAYH1: Unsupported compression method
+WARNING: skins/PLAYI1: Unsupported compression method
+WARNING: skins/PLAYJ1: Unsupported compression method
+WARNING: skins/PLAYK1: Unsupported compression method
+WARNING: skins/PLAYD2H8: Unsupported compression method
+WARNING: skins/PLAYE2I8: Unsupported compression method
+WARNING: skins/PLAYF2J8: Unsupported compression method
+WARNING: skins/PLAYG2K8: Unsupported compression method
+WARNING: skins/PLAYH2D8: Unsupported compression method
+WARNING: skins/PLAYI2E8: Unsupported compression method
+WARNING: skins/PLAYJ2F8: Unsupported compression method
+WARNING: skins/PLAYK2G8: Unsupported compression method
+WARNING: skins/PLAYD3H7: Unsupported compression method
+WARNING: skins/PLAYE3I7: Unsupported compression method
+WARNING: skins/PLAYF3J7: Unsupported compression method
+WARNING: skins/PLAYG3K7: Unsupported compression method
+WARNING: skins/PLAYH3D7: Unsupported compression method
+WARNING: skins/PLAYI3E7: Unsupported compression method
+WARNING: skins/PLAYJ3F7: Unsupported compression method
+WARNING: skins/PLAYK3G7: Unsupported compression method
+WARNING: skins/PLAYD4H6: Unsupported compression method
+WARNING: skins/PLAYE4I6: Unsupported compression method
+WARNING: skins/PLAYF4J6: Unsupported compression method
+WARNING: skins/PLAYG4K6: Unsupported compression method
+WARNING: skins/PLAYH4D6: Unsupported compression method
+WARNING: skins/PLAYI4E6: Unsupported compression method
+WARNING: skins/PLAYJ4F6: Unsupported compression method
+WARNING: skins/PLAYK4G6: Unsupported compression method
+WARNING: skins/PLAYD5H5: Unsupported compression method
+WARNING: skins/PLAYE5I5: Unsupported compression method
+WARNING: skins/PLAYF5J5: Unsupported compression method
+WARNING: skins/PLAYG5K5: Unsupported compression method
+WARNING: skins/PLAYL1: Unsupported compression method
+WARNING: skins/PLAYM1: Unsupported compression method
+WARNING: skins/PLAYN1: Unsupported compression method
+WARNING: skins/PLAYO1: Unsupported compression method
+WARNING: skins/PLAYL2: Unsupported compression method
+WARNING: skins/PLAYM2: Unsupported compression method
+WARNING: skins/PLAYN2: Unsupported compression method
+WARNING: skins/PLAYO2: Unsupported compression method
+WARNING: skins/PLAYL3: Unsupported compression method
+WARNING: skins/PLAYM3: Unsupported compression method
+WARNING: skins/PLAYN3: Unsupported compression method
+WARNING: skins/PLAYO3: Unsupported compression method
+WARNING: skins/PLAYL4: Unsupported compression method
+WARNING: skins/PLAYM4: Unsupported compression method
+WARNING: skins/PLAYN4: Unsupported compression method
+WARNING: skins/PLAYO4: Unsupported compression method
+WARNING: skins/PLAYL5: Unsupported compression method
+WARNING: skins/PLAYM5: Unsupported compression method
+WARNING: skins/PLAYN5: Unsupported compression method
+WARNING: skins/PLAYO5: Unsupported compression method
+WARNING: skins/PLAYL6: Unsupported compression method
+WARNING: skins/PLAYM6: Unsupported compression method
+WARNING: skins/PLAYN6: Unsupported compression method
+WARNING: skins/PLAYO6: Unsupported compression method
+WARNING: skins/PLAYL7: Unsupported compression method
+WARNING: skins/PLAYM7: Unsupported compression method
+WARNING: skins/PLAYN7: Unsupported compression method
+WARNING: skins/PLAYO7: Unsupported compression method
+WARNING: skins/PLAYL8: Unsupported compression method
+WARNING: skins/PLAYM8: Unsupported compression method
+WARNING: skins/PLAYN8: Unsupported compression method
+WARNING: skins/PLAYO8: Unsupported compression method
+WARNING: skins/PLAYP1: Unsupported compression method
+WARNING: skins/PLAYP2P8: Unsupported compression method
+WARNING: skins/PLAYP2P8: Unsupported compression method
+WARNING: skins/PLAYP3P7: Unsupported compression method
+WARNING: skins/PLAYP4P6: Unsupported compression method
+WARNING: skins/PLAYP5: Unsupported compression method
+WARNING: skins/PLAYQ1: Unsupported compression method
+WARNING: skins/PLAYR1: Unsupported compression method
+WARNING: skins/PLAYS1: Unsupported compression method
+WARNING: skins/PLAYT1: Unsupported compression method
+WARNING: skins/PLAYQ2S8: Unsupported compression method
+WARNING: skins/PLAYR2T8: Unsupported compression method
+WARNING: skins/PLAYS2Q8: Unsupported compression method
+WARNING: skins/PLAYT2R8: Unsupported compression method
+WARNING: skins/PLAYQ3S7: Unsupported compression method
+WARNING: skins/PLAYR3T7: Unsupported compression method
+WARNING: skins/PLAYS3Q7: Unsupported compression method
+WARNING: skins/PLAYT3R7: Unsupported compression method
+WARNING: skins/PLAYQ4S6: Unsupported compression method
+WARNING: skins/PLAYR4T6: Unsupported compression method
+WARNING: skins/PLAYS4Q6: Unsupported compression method
+WARNING: skins/PLAYT4R6: Unsupported compression method
+WARNING: skins/PLAYQ5: Unsupported compression method
+WARNING: skins/PLAYR5: Unsupported compression method
+WARNING: skins/PLAYS5: Unsupported compression method
+WARNING: skins/PLAYT5: Unsupported compression method
+WARNING: skins/PLAYU1: Unsupported compression method
+WARNING: skins/PLAYU2U8: Unsupported compression method
+WARNING: skins/PLAYU3U7: Unsupported compression method
+WARNING: skins/PLAYU4U6: Unsupported compression method
+WARNING: skins/PLAYU5: Unsupported compression method
+WARNING: skins/PLAYV1: Unsupported compression method
+WARNING: skins/PLAYV2V8: Unsupported compression method
+WARNING: skins/PLAYV3V7: Unsupported compression method
+WARNING: skins/PLAYV4V6: Unsupported compression method
+WARNING: skins/PLAYV5: Unsupported compression method
+WARNING: skins/PLAYW1: Unsupported compression method
+WARNING: skins/PLAYW2W8: Unsupported compression method
+WARNING: skins/PLAYW3W7: Unsupported compression method
+WARNING: skins/PLAYW4W6: Unsupported compression method
+WARNING: skins/PLAYW5: Unsupported compression method
+WARNING: skins/PLAYX1: Unsupported compression method
+WARNING: skins/PLAYX2X8: Unsupported compression method
+WARNING: skins/PLAYX3X7: Unsupported compression method
+WARNING: skins/PLAYX4X6: Unsupported compression method
+WARNING: skins/PLAYX5: Unsupported compression method
+WARNING: skins/PLAYY1Z1: Unsupported compression method
+WARNING: skins/PLAYY2Z8: Unsupported compression method
+WARNING: skins/PLAYY3Z7: Unsupported compression method
+WARNING: skins/PLAYY4Z6: Unsupported compression method
+WARNING: skins/PLAYY5Z5: Unsupported compression method
+WARNING: skins/PLAYY6Z4: Unsupported compression method
+WARNING: skins/PLAYY7Z3: Unsupported compression method
+WARNING: skins/PLAYY8Z2: Unsupported compression method
+WARNING: skins/PLAY[1: Unsupported compression method
+WARNING: skins/PLAY[2: Unsupported compression method
+WARNING: skins/PLAY[3: Unsupported compression method
+WARNING: skins/PLAY[4: Unsupported compression method
+WARNING: skins/PLAY[5: Unsupported compression method
+WARNING: skins/PLAY[6: Unsupported compression method
+WARNING: skins/PLAY[7: Unsupported compression method
+WARNING: skins/PLAY[8: Unsupported compression method
+WARNING: skins/PLAY+1: Unsupported compression method
+WARNING: skins/PLAY+2+8: Unsupported compression method
+WARNING: skins/PLAY+3+7: Unsupported compression method
+WARNING: skins/PLAY+4+6: Unsupported compression method
+WARNING: skins/PLAY+5: Unsupported compression method
+WARNING: skins/PLAY`1: Unsupported compression method
+WARNING: skins/PLAY`2`8: Unsupported compression method
+WARNING: skins/PLAY`3`7: Unsupported compression method
+WARNING: skins/PLAY`4`6: Unsupported compression method
+WARNING: skins/PLAY`5: Unsupported compression method
+WARNING: skins/PLAYa1: Unsupported compression method
+WARNING: skins/PLAYa2a8: Unsupported compression method
+WARNING: skins/PLAYa3a7: Unsupported compression method
+WARNING: skins/PLAYa4a6: Unsupported compression method
+WARNING: skins/PLAYa5: Unsupported compression method
+WARNING: skins/PLAYb1: Unsupported compression method
+WARNING: skins/PLAYb2: Unsupported compression method
+WARNING: skins/PLAYb3: Unsupported compression method
+WARNING: skins/PLAYb4: Unsupported compression method
+WARNING: skins/PLAYb5: Unsupported compression method
+WARNING: skins/PLAYb6: Unsupported compression method
+WARNING: skins/PLAYb7: Unsupported compression method
+WARNING: skins/PLAYb8: Unsupported compression method
+WARNING: skins/PLAYc0: Unsupported compression method
+WARNING: skins/PLAYd0: Unsupported compression method
+WARNING: skins/PLAYe0: Unsupported compression method
+WARNING: skins/PLAYf0: Unsupported compression method
+WARNING: skins/PLAYg0: Unsupported compression method
+WARNING: skins/PLAYh0: Unsupported compression method
+WARNING: skins/PLAYi0: Unsupported compression method
+WARNING: skins/PLAYj0: Unsupported compression method
+WARNING: skins/PLAYk0: Unsupported compression method
+WARNING: skins/PLAYl0: Unsupported compression method
+WARNING: skins/PLAYm0: Unsupported compression method
+WARNING: skins/PLAY]0: Unsupported compression method
+WARNING: skins/PLAY^1: Unsupported compression method
+WARNING: skins/PLAY^2: Unsupported compression method
+WARNING: skins/PLAY^3: Unsupported compression method
+WARNING: skins/PLAY^4: Unsupported compression method
+WARNING: skins/PLAY^5: Unsupported compression method
+WARNING: skins/PLAY^6: Unsupported compression method
+WARNING: skins/PLAY^7: Unsupported compression method
+WARNING: skins/PLAY^8: Unsupported compression method
+WARNING: skins/PLAY_1: Unsupported compression method
+WARNING: skins/PLAY_2: Unsupported compression method
+WARNING: skins/PLAY_3: Unsupported compression method
+WARNING: skins/PLAY_4: Unsupported compression method
+WARNING: skins/PLAY_5: Unsupported compression method
+WARNING: skins/PLAY_6: Unsupported compression method
+WARNING: skins/PLAY_7: Unsupported compression method
+WARNING: skins/PLAY_8: Unsupported compression method
+WARNING: graphics/LIVPOINT: Unsupported compression method
+WARNING: graphics/LIVSUPR: Unsupported compression method
+WARNING: graphics/CHRPOINT: Unsupported compression method
+WARNING: SOC/MAINCFG: Unsupported compression method
+WARNING: sprites/PSET/PSETA1: Unsupported compression method
+WARNING: sprites/PSET/PSETB1: Unsupported compression method
+WARNING: sprites/PSET/PSETC1: Unsupported compression method
+WARNING: sprites/PSET/PSETD1: Unsupported compression method
+WARNING: sprites/PSET/PSETE1: Unsupported compression method
+WARNING: sprites/PSET/PSETF1: Unsupported compression method
+WARNING: sprites/PSET/PSETG1: Unsupported compression method
+WARNING: sprites/PSET/PSETH1: Unsupported compression method
+WARNING: sprites/PSET/PSETA2: Unsupported compression method
+WARNING: sprites/PSET/PSETB2: Unsupported compression method
+WARNING: sprites/PSET/PSETC2: Unsupported compression method
+WARNING: sprites/PSET/PSETD2: Unsupported compression method
+WARNING: sprites/PSET/PSETE2: Unsupported compression method
+WARNING: sprites/PSET/PSETF2: Unsupported compression method
+WARNING: sprites/PSET/PSETG2: Unsupported compression method
+WARNING: sprites/PSET/PSETH2: Unsupported compression method
+WARNING: sprites/PSET/PSETA3: Unsupported compression method
+WARNING: sprites/PSET/PSETB3: Unsupported compression method
+WARNING: sprites/PSET/PSETC3: Unsupported compression method
+WARNING: sprites/PSET/PSETD3: Unsupported compression method
+WARNING: sprites/PSET/PSETE3: Unsupported compression method
+WARNING: sprites/PSET/PSETF3: Unsupported compression method
+WARNING: sprites/PSET/PSETG3: Unsupported compression method
+WARNING: sprites/PSET/PSETH3: Unsupported compression method
+WARNING: sprites/PSET/PSETA4: Unsupported compression method
+WARNING: sprites/PSET/PSETB4: Unsupported compression method
+WARNING: sprites/PSET/PSETC4: Unsupported compression method
+WARNING: sprites/PSET/PSETD4: Unsupported compression method
+WARNING: sprites/PSET/PSETE4: Unsupported compression method
+WARNING: sprites/PSET/PSETF4: Unsupported compression method
+WARNING: sprites/PSET/PSETG4: Unsupported compression method
+WARNING: sprites/PSET/PSETH4: Unsupported compression method
+WARNING: sprites/PSET/PSETA5: Unsupported compression method
+WARNING: sprites/PSET/PSETB5: Unsupported compression method
+WARNING: sprites/PSET/PSETC5: Unsupported compression method
+WARNING: sprites/PSET/PSETD5: Unsupported compression method
+WARNING: sprites/PSET/PSETE5: Unsupported compression method
+WARNING: sprites/PSET/PSETF5: Unsupported compression method
+WARNING: sprites/PSET/PSETG5: Unsupported compression method
+WARNING: sprites/PSET/PSETH5: Unsupported compression method
+WARNING: sprites/PSET/PSETA6: Unsupported compression method
+WARNING: sprites/PSET/PSETB6: Unsupported compression method
+WARNING: sprites/PSET/PSETC6: Unsupported compression method
+WARNING: sprites/PSET/PSETD6: Unsupported compression method
+WARNING: sprites/PSET/PSETE6: Unsupported compression method
+WARNING: sprites/PSET/PSETF6: Unsupported compression method
+WARNING: sprites/PSET/PSETG6: Unsupported compression method
+WARNING: sprites/PSET/PSETH6: Unsupported compression method
+WARNING: sprites/PSET/PSETA7: Unsupported compression method
+WARNING: sprites/PSET/PSETB7: Unsupported compression method
+WARNING: sprites/PSET/PSETC7: Unsupported compression method
+WARNING: sprites/PSET/PSETD7: Unsupported compression method
+WARNING: sprites/PSET/PSETE7: Unsupported compression method
+WARNING: sprites/PSET/PSETF7: Unsupported compression method
+WARNING: sprites/PSET/PSETG7: Unsupported compression method
+WARNING: sprites/PSET/PSETH7: Unsupported compression method
+WARNING: sprites/PSET/PSETA8: Unsupported compression method
+WARNING: sprites/PSET/PSETB8: Unsupported compression method
+WARNING: sprites/PSET/PSETC8: Unsupported compression method
+WARNING: sprites/PSET/PSETD8: Unsupported compression method
+WARNING: sprites/PSET/PSETE8: Unsupported compression method
+WARNING: sprites/PSET/PSETF8: Unsupported compression method
+WARNING: sprites/PSET/PSETG8: Unsupported compression method
+WARNING: sprites/PSET/PSETH8: Unsupported compression method
+WARNING: sprites/PSET/PSETI0: Unsupported compression method
+WARNING: sprites/PSET/PSETJ0: Unsupported compression method
+WARNING: sprites/PSET/PSETK0: Unsupported compression method
+WARNING: sprites/PSET/PSETL1: Unsupported compression method
+WARNING: sprites/PSET/PSETL2L8: Unsupported compression method
+WARNING: sprites/PSET/PSETL3L7: Unsupported compression method
+WARNING: sprites/PSET/PSETL4L6: Unsupported compression method
+WARNING: sprites/PSET/PSETL5: Unsupported compression method
+WARNING: sprites/PSET/PSETM1: Unsupported compression method
+WARNING: sprites/PSET/PSETM2M8: Unsupported compression method
+WARNING: sprites/PSET/PSETM3M7: Unsupported compression method
+WARNING: sprites/PSET/PSETM4M6: Unsupported compression method
+WARNING: sprites/PSET/PSETM5: Unsupported compression method
+WARNING: sprites/PSET/PSETN0: Unsupported compression method
+WARNING: sprites/PSET/PSETO0: Unsupported compression method
+WARNING: sprites/PSET/PSETP0: Unsupported compression method
+WARNING: sprites/PSET/PSETQ0: Unsupported compression method
+WARNING: sprites/PSET/PSETR0: Unsupported compression method
+WARNING: sprites/PSET/PSETS0: Unsupported compression method
+WARNING: sprites/PSET/PSETT0: Unsupported compression method
+WARNING: sprites/PSET/PSETU0: Unsupported compression method
+WARNING: sprites/PSET/PSETV0: Unsupported compression method
+WARNING: sprites/PSET/PSETW1: Unsupported compression method
+WARNING: sprites/PSET/PSETW2W8: Unsupported compression method
+WARNING: sprites/PSET/PSETW3W7: Unsupported compression method
+WARNING: sprites/PSET/PSETW4W6: Unsupported compression method
+WARNING: sprites/PSET/PSETW5: Unsupported compression method
+WARNING: sprites/PSET/PSETX1Y1: Unsupported compression method
+WARNING: sprites/PSET/PSETX2Y8: Unsupported compression method
+WARNING: sprites/PSET/PSETX3Y7: Unsupported compression method
+WARNING: sprites/PSET/PSETX4Y6: Unsupported compression method
+WARNING: sprites/PSET/PSETX5Y5: Unsupported compression method
+WARNING: sprites/PSET/PSETX6Y4: Unsupported compression method
+WARNING: sprites/PSET/PSETX7Y3: Unsupported compression method
+WARNING: sprites/PSET/PSETX8Y2: Unsupported compression method
+WARNING: sprites/PSET/PSETZ1: Unsupported compression method
+WARNING: sprites/PSET/PSETZ2Z8: Unsupported compression method
+WARNING: sprites/PSET/PSETZ3Z7: Unsupported compression method
+WARNING: sprites/PSET/PSETZ4Z6: Unsupported compression method
+WARNING: sprites/PSET/PSETZ5: Unsupported compression method
+WARNING: sprites/PSET/PSET[1: Unsupported compression method
+WARNING: sprites/PSET/PSET[2[8: Unsupported compression method
+WARNING: sprites/PSET/PSET[3[7: Unsupported compression method
+WARNING: sprites/PSET/PSET[4[6: Unsupported compression method
+WARNING: sprites/PSET/PSET[5: Unsupported compression method
+WARNING: sprites/PSET/PSET+1: Unsupported compression method
+WARNING: sprites/PSET/PSET+2+8: Unsupported compression method
+WARNING: sprites/PSET/PSET+3+7: Unsupported compression method
+WARNING: sprites/PSET/PSET+4+6: Unsupported compression method
+WARNING: sprites/PSET/PSET+5: Unsupported compression method
+WARNING: sprites/PSET/PSET]1: Unsupported compression method
+WARNING: sprites/PSET/PSET]2]8: Unsupported compression method
+WARNING: sprites/PSET/PSET]3]7: Unsupported compression method
+WARNING: sprites/PSET/PSET]4]6: Unsupported compression method
+WARNING: sprites/PSET/PSET]5: Unsupported compression method
+WARNING: sprites/PSET/PSET^1: Unsupported compression method
+WARNING: sprites/PSET/PSET^2^8: Unsupported compression method
+WARNING: sprites/PSET/PSET^3^7: Unsupported compression method
+WARNING: sprites/PSET/PSET^4^6: Unsupported compression method
+WARNING: sprites/PSET/PSET^5: Unsupported compression method
+WARNING: sprites/PSET/PSET_1: Unsupported compression method
+WARNING: sprites/PSET/PSET_2_8: Unsupported compression method
+WARNING: sprites/PSET/PSET`1: Unsupported compression method
+WARNING: sprites/PSET/PSET`2`8: Unsupported compression method
+WARNING: sprites/PSET/PSETc4c6: Unsupported compression method
+WARNING: sprites/PSET/PSETc5: Unsupported compression method
+WARNING: sprites/PSET/PSETd1f1: Unsupported compression method
+WARNING: sprites/PSET/PSETd2f8: Unsupported compression method
+WARNING: sprites/PSET/PSETd3f7: Unsupported compression method
+WARNING: sprites/PSET/PSETd4f6: Unsupported compression method
+WARNING: sprites/PSET/PSETd5f5: Unsupported compression method
+WARNING: sprites/PSET/PSETd6f4: Unsupported compression method
+WARNING: sprites/PSET/PSETd7f3: Unsupported compression method
+WARNING: sprites/PSET/PSETd8f2: Unsupported compression method
+WARNING: sprites/PSET/PSETe1: Unsupported compression method
+WARNING: sprites/PSET/PSETe2: Unsupported compression method
+WARNING: sprites/PSET/PSETe3: Unsupported compression method
+WARNING: sprites/PSET/PSETe4: Unsupported compression method
+WARNING: sprites/PSET/PSETe5: Unsupported compression method
+WARNING: sprites/PSET/PSETe6: Unsupported compression method
+WARNING: sprites/PSET/PSETe7: Unsupported compression method
+WARNING: sprites/PSET/PSETe8: Unsupported compression method
+WARNING: sprites/PSET/PSETg1: Unsupported compression method
+WARNING: sprites/PSET/PSETg2: Unsupported compression method
+WARNING: sprites/PSET/PSETg3: Unsupported compression method
+WARNING: sprites/PSET/PSETg4: Unsupported compression method
+WARNING: sprites/PSET/PSETg5: Unsupported compression method
+WARNING: sprites/PSET/PSETg6: Unsupported compression method
+WARNING: sprites/PSET/PSETg7: Unsupported compression method
+WARNING: sprites/PSET/PSETg8: Unsupported compression method
+WARNING: sprites/PSET/PSETh1: Unsupported compression method
+WARNING: sprites/PSET/PSETh2h8: Unsupported compression method
+WARNING: sprites/PSET/PSETh3h7: Unsupported compression method
+WARNING: sprites/PSET/PSETh4h6: Unsupported compression method
+WARNING: sprites/PSET/PSETh5: Unsupported compression method
+WARNING: sprites/PSET/PSETi0: Unsupported compression method
+WARNING: sprites/PSET/PSETj1: Unsupported compression method
+WARNING: sprites/PSET/PSETj2j8: Unsupported compression method
+WARNING: sprites/PSET/PSETj3j7: Unsupported compression method
+WARNING: sprites/PSET/PSETj4j6: Unsupported compression method
+WARNING: sprites/PSET/PSETj5: Unsupported compression method
+WARNING: sprites/PSET/PSETk1: Unsupported compression method
+WARNING: sprites/PSET/PSETk2k8: Unsupported compression method
+WARNING: sprites/PSET/PSETk3k7: Unsupported compression method
+WARNING: sprites/PSET/PSETk4k6: Unsupported compression method
+WARNING: sprites/PSET/PSETk5: Unsupported compression method
+WARNING: sprites/PSET/PSETl1: Unsupported compression method
+WARNING: sprites/PSET/PSETl2l8: Unsupported compression method
+WARNING: sprites/PSET/PSETl3l7: Unsupported compression method
+WARNING: sprites/PSET/PSETl4l6: Unsupported compression method
+WARNING: sprites/PSET/PSETl5: Unsupported compression method
+WARNING: sprites/PSET/PSETm1: Unsupported compression method
+WARNING: sprites/PSET/PSETm2m8: Unsupported compression method
+WARNING: sprites/PSET/PSETm3m7: Unsupported compression method
+WARNING: sprites/PSET/PSETm4m6: Unsupported compression method
+WARNING: sprites/PSET/PSETm5: Unsupported compression method
+WARNING: sprites/PSET/PSETn1: Unsupported compression method
+WARNING: sprites/PSET/PSETn2n8: Unsupported compression method
+WARNING: sprites/PSET/PSETn3n7: Unsupported compression method
+WARNING: sprites/PSET/PSETn4n6: Unsupported compression method
+WARNING: sprites/PSET/PSETn5: Unsupported compression method
+WARNING: sprites/PSET/PSETo1: Unsupported compression method
+WARNING: sprites/PSET/PSETo2o8: Unsupported compression method
+WARNING: sprites/PSET/PSETo3o7: Unsupported compression method
+WARNING: sprites/PSET/PSETo4o6: Unsupported compression method
+WARNING: sprites/PSET/PSETo5: Unsupported compression method
+WARNING: sprites/PDED/PDEDA0: Unsupported compression method
+WARNING: sprites/PDED/PDEDB0: Unsupported compression method
+WARNING: sprites/PDED/PDEDC0: Unsupported compression method
+WARNING: sprites/PDED/PDEDD0: Unsupported compression method
+WARNING: sprites/PDED/PDEDE0: Unsupported compression method
+WARNING: sprites/PDED/PDEDF0: Unsupported compression method
+WARNING: sprites/PDED/PDEDG0: Unsupported compression method
+WARNING: sprites/PDED/PDEDH0: Unsupported compression method
+WARNING: sprites/PPMP/PPMPA0: Unsupported compression method
+WARNING: sprites/PPMP/PPMPB0: Unsupported compression method
+WARNING: sprites/CONF/CONFA0: Unsupported compression method
+WARNING: sprites/CONF/CONFB0: Unsupported compression method
+WARNING: sprites/CONF/CONFC0: Unsupported compression method
+WARNING: sprites/CONF/CONFD0: Unsupported compression method
+WARNING: sprites/CONF/CONFE0: Unsupported compression method
+WARNING: sprites/CONF/CONFF0: Unsupported compression method
+WARNING: sprites/CONF/CONFG0: Unsupported compression method
+WARNING: sprites/CONF/CONFH0: Unsupported compression method
+WARNING: sprites/CONF/CONFI0: Unsupported compression method
+WARNING: sprites/CONF/CONFJ0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTB0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTC0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTD0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTE0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTF0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTG0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTH0: Unsupported compression method
+WARNING: sprites/EMOT/EMOTI0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPA1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPA2A8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPA3A7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPA4A6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPA5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPB1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPB2B8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPB3B7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPB4B6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPB5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPC1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPC2C8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPC3C7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPC4C6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPD1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPD2D8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPD3D7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPD4D6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPF5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPG5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPH1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPH2H8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPH3H7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPH4H6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPH5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPI1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPI2I8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPI3I7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPI4I6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPI5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPJ1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPJ2L8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPJ3L7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPJ4L6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPJ5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPK1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPK2M8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPK3M7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPK4M6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPK5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPL1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPL2J8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPL3J7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPL4J6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPL5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPM1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPM2K8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPM3K7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPM4K6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPM5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPN1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPO1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPP1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPQ1: Unsupported compression method
+WARNING: sprites/PSUP/PSUPN2P8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPO2Q8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPP2N8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPQ2O8: Unsupported compression method
+WARNING: sprites/PSUP/PSUPN3P7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPO3Q7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPP3N7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPQ3O7: Unsupported compression method
+WARNING: sprites/PSUP/PSUPN4P6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPO4Q6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPP4N6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPQ4O6: Unsupported compression method
+WARNING: sprites/PSUP/PSUPN5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPO5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPP5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPQ5: Unsupported compression method
+WARNING: sprites/PSUP/PSUPR0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPS0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPT0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPU0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPV0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPW0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPX0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPY0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPZ0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP[0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP+0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP]0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP^0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP_0: Unsupported compression method
+WARNING: sprites/PSUP/PSUP`0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPa0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPb0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPc0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPd0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPe0: Unsupported compression method
+WARNING: sprites/PSUP/PSUPf0: Unsupported compression method
+WARNING: sounds/DSPJUMP: Unsupported compression method
+WARNING: sounds/DSDBJUMP: Unsupported compression method
+WARNING: sounds/DSDAB: Unsupported compression method
+WARNING: sounds/DSEMOT0: Unsupported compression method
+WARNING: sounds/DSEMOT1: Unsupported compression method
+WARNING: sounds/DSEMOT2: Unsupported compression method
+WARNING: sounds/DSEMOT3: Unsupported compression method
+WARNING: sounds/DSEMOT4: Unsupported compression method
+WARNING: sounds/DSEMOT5: Unsupported compression method
+WARNING: sounds/DSEMOT6: Unsupported compression method
+WARNING: sounds/DSTRICK1: Unsupported compression method
+WARNING: sounds/DSTRICK2: Unsupported compression method
+WARNING: sounds/DSTRICK3: Unsupported compression method
+WARNING: sounds/DSTRICK4: Unsupported compression method
+WARNING: sounds/DSTRICK5: Unsupported compression method
+WARNING: sounds/DSTRICK6: Unsupported compression method
+WARNING: sounds/DSRSCRCH.ogg: Unsupported compression method
+WARNING: lua/POINTY-SOC.lua: Unsupported compression method
+WARNING: lua/I-LOVE-PK3S-THEY-LET-ME-WRITE-REALLY-LONG-LUMP-NAMES.lua: Unsupported compression method
+Added file 21Addons\Mods\Character Mods\01 - Sonic\CL_PointySonic-v1.pk3 (558 lumps)
+
+I_Error(): wad 6, lump 556: unsupported compression type!
+I_ShutdownGraphics(): shut down
+I_ShutdownTcpDriver: shut down
+I_ShutdownSystem(): end of logstream.

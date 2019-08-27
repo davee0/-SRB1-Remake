@@ -1,0 +1,86 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Srb2-21slopeszb.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		defaultfloortexture = "KHZGRAF2";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "E:\\Games\\Sonic Robo Blast 2\\21Addons\\Projects\\Project Resources\\horizontalsprings.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2\\21Addons\\Projects\\SRB1 Rethinked\\SRB1ReThinked.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "TREEOBJ3";
+		overridemiddletexture = false;
+		viewpositionx = -13667f;
+		viewpositiony = 16945f;
+		viewscale = 0.09743554f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32;
+		}
+		defaultceiltexture = "F_SKY1";
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		overridebrightness = false;
+		uselongtexturenames = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "TREEOBJ3";
+		defaultbottomtexture = "TREEOBJ3";
+		
+		scriptfiles
+		{
+			
+			file
+			{
+				filename = "OBJCTCFG";
+				hash = 0;
+			}
+		}
+	}
+}

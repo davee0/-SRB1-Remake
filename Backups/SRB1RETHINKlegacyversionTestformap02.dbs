@@ -1,0 +1,96 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Srb2-21slopeszb.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP02
+	{
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "E:\\Games\\Sonic Robo Blast 2\\srb2.srb";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2\\21Projects\\SRB1 Rethinked\\SRB1ReThinked.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "DCZGRASS";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "KBZROCK2";
+		defaultwalltexture = "KBZROCK2";
+		defaultbottomtexture = "KBZROCK2";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 334.8508f;
+		viewpositiony = 21669.86f;
+		viewscale = 0.2802128f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 16;
+		}
+		
+		taglabels
+		{
+			
+			taglabel1
+			{
+				tag = 20;
+				label = "1í";
+			}
+		}
+		
+		scriptfiles
+		{
+			
+			file
+			{
+				filename = "OBJCTCFG";
+				hash = 0;
+			}
+		}
+	}
+}
