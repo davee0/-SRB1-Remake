@@ -25,9 +25,15 @@ MB Profile: http://mb.srb2.org/member.php?u=835
 
 >>>> Play Test
 *Davee0 - *Screaming Intensifies*
+
 *RazeC - Low Specs Playtester
+MB Raze Profile: https://mb.srb2.org/member.php?u=6505
+
 *LazyMK - Low Specs Playtester
+MB LazyMK Profile: https://mb.srb2.org/member.php?u=6222
+
 *Lach - Random Tester
+MB Lach Profile: https://mb.srb2.org/member.php?u=6601
 
 >>>> Used Free Resources
 *Dirk - Art and Lach - Script = Horizontal Springs
