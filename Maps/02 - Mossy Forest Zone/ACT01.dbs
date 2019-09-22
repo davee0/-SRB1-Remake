@@ -1,0 +1,67 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Srb2-21slopeszb.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2\\21Addons\\Projects\\SRB1 Rethinked\\SRB1ReThinked.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "KBZGRAF8";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "MFZGR7";
+		defaultwalltexture = "MFZGR7";
+		defaultbottomtexture = "MFZGR7";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = -127.9448f;
+		viewpositiony = -1234.917f;
+		viewscale = 0.3028725f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+		}
+	}
+}
