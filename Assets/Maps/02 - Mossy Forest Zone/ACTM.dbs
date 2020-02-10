@@ -1,0 +1,127 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "SRB2-22.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2\\21Addons\\Projects\\SRB1 Rethinked\\SRB1ReThinked.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "KBZGRAF9";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "GFZROCK";
+		defaultwalltexture = "GFZROCK";
+		defaultbottomtexture = "GFZROCK";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 1816.625f;
+		viewpositiony = 216.8077f;
+		viewscale = 0.1378574f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+		}
+	}
+	
+	MAPM9
+	{
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2 2.2\\Projects\\SRB1 Remake 2.2\\ReSRB1_22pack.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "GFZFLR01";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "GFZROCK";
+		defaultwalltexture = "GFZROCK";
+		defaultbottomtexture = "GFZROCK";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = -1100.378f;
+		viewpositiony = -2165.778f;
+		viewscale = 0.8650388f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 32;
+		}
+	}
+}

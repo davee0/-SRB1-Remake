@@ -1,0 +1,77 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "SRB2-22.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		defaultfloortexture = "KHZGRA2";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "E:\\Games\\Sonic Robo Blast 2 2.2\\Projects\\SRB1 Remake 2.2\\ReSRB1_22pack.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "KHZGRA";
+		overridemiddletexture = false;
+		viewpositionx = -24861.73f;
+		viewpositiony = 4056.012f;
+		viewscale = 0.1378581f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32;
+		}
+		defaultceiltexture = "F_SKY1";
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				slopes
+				{
+				}
+			}
+		}
+		overridebrightness = false;
+		uselongtexturenames = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "KHZGRA";
+		defaultbottomtexture = "KHZGRA";
+		
+		scriptfiles
+		{
+			
+			file
+			{
+				filename = "OBJCTCFG";
+				hash = 0;
+			}
+		}
+	}
+}
