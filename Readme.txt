@@ -1,4 +1,4 @@
-ReSRB1_22pack.pk3 is Asset pack used for mapping
+SRB1AP.pk3 is Asset pack used for mapping and bases for further releases
 
 
 >>>> SRB1 Remake Credits <<<<
