@@ -1,7 +1,5 @@
 ReSRB1_22pack.pk3 is Asset pack used for mapping
 
-> Error <
-
 
 >>>> SRB1 Remake Credits <<<<
 
