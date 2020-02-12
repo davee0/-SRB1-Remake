@@ -103,9 +103,9 @@ maps
 		}
 		defaulttoptexture = "KHZGRA";
 		overridemiddletexture = false;
-		viewpositionx = -11876.65f;
-		viewpositiony = 5005f;
-		viewscale = 1.352528f;
+		viewpositionx = -12457.72f;
+		viewpositiony = 1472.328f;
+		viewscale = 0.1658059f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
