@@ -16,7 +16,7 @@ maps
 			resource0
 			{
 				type = 2;
-				location = "E:\\Games\\Sonic Robo Blast 2 2.2\\Projects\\SRB1 Remake 2.2\\ReSRB1_22pack.pk3";
+				location = "E:\\Github\\SRB1-Remake\\SRB1AP.pk3";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -24,9 +24,9 @@ maps
 		}
 		defaulttoptexture = "KHZGRA";
 		overridemiddletexture = false;
-		viewpositionx = -24861.73f;
-		viewpositiony = 4056.012f;
-		viewscale = 0.1378581f;
+		viewpositionx = -2131.924f;
+		viewpositiony = 4041.825f;
+		viewscale = 0.1792159f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
