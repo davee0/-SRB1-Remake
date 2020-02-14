@@ -18,6 +18,8 @@ SRB1AP.pk3 is Asset pack used for mapping and bases for further releases
 *CobaltBW - Ring ring ring. -> KHZ1 Music
 MB Profile: http://mb.srb2.org/member.php?u=835
 
+*Raze - Agate Heights BGM
+
 *Dave Lite - Previous Soundfont swamps
 
 >>>> Scripting
